@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://www.cidoc-crm.org/cidoc-crm/" uri="https://raw.githubusercontent.com/feup-infolab/archontology/master/Ontology/CIDOCCRM_ecrm.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104" uri="https://raw.githubusercontent.com/feup-infolab/archontology/master/Ontology/data_object_0.0.2.owl"/>
+</catalog>

@@ -27,9 +27,39 @@
     
 
 
+    <!-- http://www.cidoc-crm.org/cidoc-crm/P72_has_language -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P72_has_language"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#endDateValue -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#endDateValue"/>
+    
+
+
     <!-- http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#intervalDateValue -->
 
     <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#intervalDateValue"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#startDateValue -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#startDateValue"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#stringValue -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#stringValue"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#timestamp -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#timestamp"/>
     
 
 
@@ -362,9 +392,9 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ineskoch/ontologies/2019/6/untitled-ontology-106#ApocalipseLorvao">
         <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object"/>
         <cidoc-crm:P1_is_identified_by rdf:resource="http://www.semanticweb.org/ineskoch/ontologies/2019/6/untitled-ontology-106#CF160_ColeccaoCostaBasto_n.21"/>
+        <ARP12_has_level_of_description rdf:resource="http://www.semanticweb.org/ineskoch/ontologies/2019/6/untitled-ontology-106#UnidadeInstalacao"/>
         <cidoc-crm:P1_is_identified_by rdf:resource="http://www.semanticweb.org/ineskoch/ontologies/2019/6/untitled-ontology-106#OrdemCister_MosteiroLorvao_codice44"/>
         <cidoc-crm:P1_is_identified_by rdf:resource="http://www.semanticweb.org/ineskoch/ontologies/2019/6/untitled-ontology-106#PT/TT/MSML/B/44"/>
-        <ARP12_has_level_of_description rdf:resource="http://www.semanticweb.org/ineskoch/ontologies/2019/6/untitled-ontology-106#UnidadeInstalacao"/>
         <rdfs:label>Apocalipse Lorvão</rdfs:label>
     </owl:NamedIndividual>
     
@@ -374,7 +404,6 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ineskoch/ontologies/2019/6/untitled-ontology-106#ApocalipseLorvao_C">
         <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
-        <cidoc-crm:P72_has_language rdf:resource="http://www.semanticweb.org/ineskoch/ontologies/2019/6/untitled-ontology-106#Latim"/>
         <ARP15_has_date_of_description rdf:resource="http://www.semanticweb.org/ineskoch/ontologies/2019/6/untitled-ontology-106#22/6/2010_0:00:00"/>
         <ARP16_has_production_date rdf:resource="http://www.semanticweb.org/ineskoch/ontologies/2019/6/untitled-ontology-106#1189"/>
         <ARP17_has_last_modification rdf:resource="http://www.semanticweb.org/ineskoch/ontologies/2019/6/untitled-ontology-106#19/10/2018_17:44:59"/>
@@ -404,6 +433,7 @@ Beato de Liébana : manuscritos iluminados / Beato de Liébana ; Joaquin Yarza L
 Beato de Liébana: Códice del Monasterio de San Mamede de Lorvao. Valencia: Patrimonio Ediciones, 2003. Encadernação em couro com ferragens. - Facsimile
 ROCHA, Jorge Manuel Gomes da Silva - L&apos;image dans le Beatus de Lorvão : figuration, composition et visualité dans les enluminures du Commentaire à l&apos;Apocalypse attribué au Scriptorium du Monastère de São Mamede de Lorvão – 1189. Bruxelles : Université Libre de Bruxelles. Faulté de Philosophie et Lettres, 2007/2008. - 4 vols + 1 CD-ROM . Tese de Doutoramento. Exemplar disponível na Torre do Tombo, Biblioteca SV 39(1-4)/09, CD-ROM 39/09.
 Anões às costas dos grandes gigantes do passado: poder, mitos e memórias a sociedade medieval: contributos de Luís Krus: Catálogo da exposição, Lisboa, Arquivo Nacional da Torre do Tombo, 1 a 31 de Outubro de 2015. Lisboa: Instituto de Estudos Medievais; Centro de Estudos d&apos; Aquém e d&apos; Além Mar, 2015. ISBN 978-989-98749-8-5; 978-989-8492-29-6. p. 40-41.</ARP6_has_publication_note>
+        <cidoc-crm:P72_has_language rdf:resource="http://www.semanticweb.org/ineskoch/ontologies/2019/6/untitled-ontology-106#Latim"/>
         <rdfs:label>Apocalipse Lorvão_C</rdfs:label>
     </owl:NamedIndividual>
     
@@ -433,11 +463,11 @@ Anões às costas dos grandes gigantes do passado: poder, mitos e memórias a so
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ineskoch/ontologies/2019/6/untitled-ontology-106#CalendarioGregoriano">
         <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object"/>
+        <ARP12_has_level_of_description rdf:resource="http://www.semanticweb.org/ineskoch/ontologies/2019/6/untitled-ontology-106#DocumentoSimples"/>
         <cidoc-crm:P1_is_identified_by rdf:resource="http://www.semanticweb.org/ineskoch/ontologies/2019/6/untitled-ontology-106#Armario_11_da_Casa_da_Coroa"/>
         <cidoc-crm:P1_is_identified_by rdf:resource="http://www.semanticweb.org/ineskoch/ontologies/2019/6/untitled-ontology-106#Gavetas_Gav_2_mc.9_n.28"/>
         <cidoc-crm:P1_is_identified_by rdf:resource="http://www.semanticweb.org/ineskoch/ontologies/2019/6/untitled-ontology-106#LeisOrdenacoes_Leis_mc.3_n.36"/>
         <cidoc-crm:P1_is_identified_by rdf:resource="http://www.semanticweb.org/ineskoch/ontologies/2019/6/untitled-ontology-106#PT/TT/LO/003/3/036"/>
-        <ARP12_has_level_of_description rdf:resource="http://www.semanticweb.org/ineskoch/ontologies/2019/6/untitled-ontology-106#DocumentoSimples"/>
         <rdfs:label>Calendário Gregoriano</rdfs:label>
     </owl:NamedIndividual>
     
@@ -447,7 +477,6 @@ Anões às costas dos grandes gigantes do passado: poder, mitos e memórias a so
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ineskoch/ontologies/2019/6/untitled-ontology-106#CalendarioGregoriano_C">
         <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
-        <cidoc-crm:P72_has_language rdf:resource="http://www.semanticweb.org/ineskoch/ontologies/2019/6/untitled-ontology-106#Portugues"/>
         <ARP15_has_date_of_description rdf:resource="http://www.semanticweb.org/ineskoch/ontologies/2019/6/untitled-ontology-106#31/1/2008_0:00:00"/>
         <ARP16_has_production_date rdf:resource="http://www.semanticweb.org/ineskoch/ontologies/2019/6/untitled-ontology-106#1582-09-20"/>
         <ARP17_has_last_modification rdf:resource="http://www.semanticweb.org/ineskoch/ontologies/2019/6/untitled-ontology-106#24/3/2015_12:24:04"/>
@@ -467,6 +496,7 @@ Documento publicado em “As gavetas da Torre do Tombo: edição digital”. Vol
         <ARP7_has_related_units_of_description>Relação sucessora:
 
 Portugal, Torre do Tombo, Reforma das Gavetas, liv. 6, f. 63 v.</ARP7_has_related_units_of_description>
+        <cidoc-crm:P72_has_language rdf:resource="http://www.semanticweb.org/ineskoch/ontologies/2019/6/untitled-ontology-106#Portugues"/>
         <rdfs:label>Calendário Gregoriano_C</rdfs:label>
     </owl:NamedIndividual>
     
@@ -476,9 +506,9 @@ Portugal, Torre do Tombo, Reforma das Gavetas, liv. 6, f. 63 v.</ARP7_has_relate
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ineskoch/ontologies/2019/6/untitled-ontology-106#CartaDeLei">
         <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object"/>
+        <ARP12_has_level_of_description rdf:resource="http://www.semanticweb.org/ineskoch/ontologies/2019/6/untitled-ontology-106#DocumentoComposto"/>
         <cidoc-crm:P1_is_identified_by rdf:resource="http://www.semanticweb.org/ineskoch/ontologies/2019/6/untitled-ontology-106#LeisOrdenacoes_Leis_mc.31_n.64"/>
         <cidoc-crm:P1_is_identified_by rdf:resource="http://www.semanticweb.org/ineskoch/ontologies/2019/6/untitled-ontology-106#PT/TT/LO/003/31/64"/>
-        <ARP12_has_level_of_description rdf:resource="http://www.semanticweb.org/ineskoch/ontologies/2019/6/untitled-ontology-106#DocumentoComposto"/>
         <rdfs:label>Carta de Lei</rdfs:label>
     </owl:NamedIndividual>
     
@@ -488,7 +518,6 @@ Portugal, Torre do Tombo, Reforma das Gavetas, liv. 6, f. 63 v.</ARP7_has_relate
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ineskoch/ontologies/2019/6/untitled-ontology-106#CartaDeLei_C">
         <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
-        <cidoc-crm:P72_has_language rdf:resource="http://www.semanticweb.org/ineskoch/ontologies/2019/6/untitled-ontology-106#Portugues"/>
         <ARP15_has_date_of_description rdf:resource="http://www.semanticweb.org/ineskoch/ontologies/2019/6/untitled-ontology-106#28/5/2009_0:00:00"/>
         <ARP16_has_production_date rdf:resource="http://www.semanticweb.org/ineskoch/ontologies/2019/6/untitled-ontology-106#1867-06-26_a_1867-07-01"/>
         <ARP17_has_last_modification rdf:resource="http://www.semanticweb.org/ineskoch/ontologies/2019/6/untitled-ontology-106#27/6/2017_9:55:38"/>
@@ -504,6 +533,7 @@ A Carta de Lei de Abolição da Pena de Morte (1867) recebeu, no dia 15 de abril
 A carta de lei apresenta um selo de chapa</ARP3_has_scope>
         <ARP4_has_access_conditions>Documentação sujeita a autorização para a consulta e a horário restrito.</ARP4_has_access_conditions>
         <ARP6_has_publication_note>Carta de Vitor Hugo a Brito Aranha onde se regozija com a publicação da lei da abolição da pena de morte em Portugal. In ARANHA, Brito - Factos e Homens do Meu Tempo: memórias de um jornalista. Lisboa: Parceria António Maria Pereira, Livraria Editora, 1908. Tomo 2. Exemplar existente na Torre do Tombo, Biblioteca SV 5123. Em carta enviada a Brito Aranha a 15 de Junho de 1867, Vítor Hugo felicita Portugal e escreve: «Portugal acaba de abolir a pena de morte. Acompanhar este progresso é dar o grande passo da civilização. Desde hoje, Portugal é a cabeça da Europa. Vós, Portugueses, não deixastes de ser navegadores intrépidos. Outrora, íeis à frente no Oceano; hoje, ides à frente na Verdade. Proclamar princípios é mais belo ainda que descobrir mundos.»</ARP6_has_publication_note>
+        <cidoc-crm:P72_has_language rdf:resource="http://www.semanticweb.org/ineskoch/ontologies/2019/6/untitled-ontology-106#Portugues"/>
         <rdfs:label>Carta de Lei_C</rdfs:label>
     </owl:NamedIndividual>
     
@@ -844,8 +874,8 @@ A carta de lei apresenta um selo de chapa</ARP3_has_scope>
         <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#Interval"/>
         <untitled-ontology-104:endDateValue rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1189-12-31T00:00:00</untitled-ontology-104:endDateValue>
-        <untitled-ontology-104:startDateValue rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1189-01-01T00:00:00</untitled-ontology-104:startDateValue>
         <untitled-ontology-104:intervalDateValue rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1189-01-01T00:00:00</untitled-ontology-104:intervalDateValue>
+        <untitled-ontology-104:startDateValue rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1189-01-01T00:00:00</untitled-ontology-104:startDateValue>
     </owl:NamedIndividual>
     
 
