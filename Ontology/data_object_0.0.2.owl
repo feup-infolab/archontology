@@ -5,8 +5,11 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104"/>
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:data_object="http://www.episa.inesctec.pt/data_object#">
+    <owl:Ontology rdf:about="http://www.episa.inesctec.pt/data_object">
+        <owl:versionIRI rdf:resource="http://www.episa.inesctec.pt/data_object/0.0.2"/>
+    </owl:Ontology>
     
 
 
@@ -21,11 +24,11 @@
     
 
 
-    <!-- http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#hasAuthorityFile -->
+    <!-- http://www.episa.inesctec.pt/data_object#hasAuthorityFile -->
 
-    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#hasAuthorityFile">
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#AuthorityFile"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#AuthorityString"/>
+    <owl:AnnotationProperty rdf:about="http://www.episa.inesctec.pt/data_object#hasAuthorityFile">
+        <rdfs:range rdf:resource="http://www.episa.inesctec.pt/data_object#AuthorityFile"/>
+        <rdfs:domain rdf:resource="http://www.episa.inesctec.pt/data_object#AuthorityString"/>
     </owl:AnnotationProperty>
     
 
@@ -41,75 +44,75 @@
     
 
 
-    <!-- http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#approximateDateValue -->
+    <!-- http://www.episa.inesctec.pt/data_object#approximateDateValue -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#approximateDateValue">
+    <owl:DatatypeProperty rdf:about="http://www.episa.inesctec.pt/data_object#approximateDateValue">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#Approximate"/>
+        <rdfs:domain rdf:resource="http://www.episa.inesctec.pt/data_object#Approximate"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#endDateValue -->
+    <!-- http://www.episa.inesctec.pt/data_object#endDateValue -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#endDateValue">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#Interval"/>
+    <owl:DatatypeProperty rdf:about="http://www.episa.inesctec.pt/data_object#endDateValue">
+        <rdfs:domain rdf:resource="http://www.episa.inesctec.pt/data_object#Interval"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#fileLocation -->
+    <!-- http://www.episa.inesctec.pt/data_object#fileLocation -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#fileLocation">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#AuthorityFile"/>
+    <owl:DatatypeProperty rdf:about="http://www.episa.inesctec.pt/data_object#fileLocation">
+        <rdfs:domain rdf:resource="http://www.episa.inesctec.pt/data_object#AuthorityFile"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#hasRegex -->
+    <!-- http://www.episa.inesctec.pt/data_object#hasRegex -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#hasRegex">
+    <owl:DatatypeProperty rdf:about="http://www.episa.inesctec.pt/data_object#hasRegex">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#RegexString"/>
+        <rdfs:domain rdf:resource="http://www.episa.inesctec.pt/data_object#RegexString"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#name -->
+    <!-- http://www.episa.inesctec.pt/data_object#name -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#name">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#Person_Name"/>
+    <owl:DatatypeProperty rdf:about="http://www.episa.inesctec.pt/data_object#name">
+        <rdfs:domain rdf:resource="http://www.episa.inesctec.pt/data_object#Person_Name"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#startDateValue -->
+    <!-- http://www.episa.inesctec.pt/data_object#startDateValue -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#startDateValue">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#Interval"/>
+    <owl:DatatypeProperty rdf:about="http://www.episa.inesctec.pt/data_object#startDateValue">
+        <rdfs:domain rdf:resource="http://www.episa.inesctec.pt/data_object#Interval"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#stringValue -->
+    <!-- http://www.episa.inesctec.pt/data_object#stringValue -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#stringValue">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#String"/>
+    <owl:DatatypeProperty rdf:about="http://www.episa.inesctec.pt/data_object#stringValue">
+        <rdfs:domain rdf:resource="http://www.episa.inesctec.pt/data_object#String"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#timestamp -->
+    <!-- http://www.episa.inesctec.pt/data_object#timestamp -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#timestamp">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#Instant"/>
+    <owl:DatatypeProperty rdf:about="http://www.episa.inesctec.pt/data_object#timestamp">
+        <rdfs:domain rdf:resource="http://www.episa.inesctec.pt/data_object#Instant"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
     </owl:DatatypeProperty>
     
@@ -126,138 +129,138 @@
     
 
 
-    <!-- http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#Approximate -->
+    <!-- http://www.episa.inesctec.pt/data_object#Approximate -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#Approximate">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#Date"/>
+    <owl:Class rdf:about="http://www.episa.inesctec.pt/data_object#Approximate">
+        <rdfs:subClassOf rdf:resource="http://www.episa.inesctec.pt/data_object#Date"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#AuthorityFile -->
+    <!-- http://www.episa.inesctec.pt/data_object#AuthorityFile -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#AuthorityFile">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#DataObject"/>
+    <owl:Class rdf:about="http://www.episa.inesctec.pt/data_object#AuthorityFile">
+        <rdfs:subClassOf rdf:resource="http://www.episa.inesctec.pt/data_object#DataObject"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#AuthorityString -->
+    <!-- http://www.episa.inesctec.pt/data_object#AuthorityString -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#AuthorityString">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#String"/>
-        <hasAuthorityFile rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></hasAuthorityFile>
+    <owl:Class rdf:about="http://www.episa.inesctec.pt/data_object#AuthorityString">
+        <rdfs:subClassOf rdf:resource="http://www.episa.inesctec.pt/data_object#String"/>
+        <data_object:hasAuthorityFile rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></data_object:hasAuthorityFile>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#Boolean -->
+    <!-- http://www.episa.inesctec.pt/data_object#Boolean -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#Boolean">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#DataObject"/>
+    <owl:Class rdf:about="http://www.episa.inesctec.pt/data_object#Boolean">
+        <rdfs:subClassOf rdf:resource="http://www.episa.inesctec.pt/data_object#DataObject"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#DataObject -->
+    <!-- http://www.episa.inesctec.pt/data_object#DataObject -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#DataObject"/>
+    <owl:Class rdf:about="http://www.episa.inesctec.pt/data_object#DataObject"/>
     
 
 
-    <!-- http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#Date -->
+    <!-- http://www.episa.inesctec.pt/data_object#Date -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#Date">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#DataObject"/>
+    <owl:Class rdf:about="http://www.episa.inesctec.pt/data_object#Date">
+        <rdfs:subClassOf rdf:resource="http://www.episa.inesctec.pt/data_object#DataObject"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#Decimal -->
+    <!-- http://www.episa.inesctec.pt/data_object#Decimal -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#Decimal">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#DataObject"/>
+    <owl:Class rdf:about="http://www.episa.inesctec.pt/data_object#Decimal">
+        <rdfs:subClassOf rdf:resource="http://www.episa.inesctec.pt/data_object#DataObject"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#Geospatial_Coordinates -->
+    <!-- http://www.episa.inesctec.pt/data_object#Geospatial_Coordinates -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#Geospatial_Coordinates">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#DataObject"/>
+    <owl:Class rdf:about="http://www.episa.inesctec.pt/data_object#Geospatial_Coordinates">
+        <rdfs:subClassOf rdf:resource="http://www.episa.inesctec.pt/data_object#DataObject"/>
         <rdfs:label>Geospatial Coordinates</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#Instant -->
+    <!-- http://www.episa.inesctec.pt/data_object#Instant -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#Instant">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#Date"/>
+    <owl:Class rdf:about="http://www.episa.inesctec.pt/data_object#Instant">
+        <rdfs:subClassOf rdf:resource="http://www.episa.inesctec.pt/data_object#Date"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#Integer -->
+    <!-- http://www.episa.inesctec.pt/data_object#Integer -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#Integer">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#DataObject"/>
+    <owl:Class rdf:about="http://www.episa.inesctec.pt/data_object#Integer">
+        <rdfs:subClassOf rdf:resource="http://www.episa.inesctec.pt/data_object#DataObject"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#Interval -->
+    <!-- http://www.episa.inesctec.pt/data_object#Interval -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#Interval">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#Date"/>
+    <owl:Class rdf:about="http://www.episa.inesctec.pt/data_object#Interval">
+        <rdfs:subClassOf rdf:resource="http://www.episa.inesctec.pt/data_object#Date"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#Latitude -->
+    <!-- http://www.episa.inesctec.pt/data_object#Latitude -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#Latitude">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#Geospatial_Coordinates"/>
+    <owl:Class rdf:about="http://www.episa.inesctec.pt/data_object#Latitude">
+        <rdfs:subClassOf rdf:resource="http://www.episa.inesctec.pt/data_object#Geospatial_Coordinates"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#Longitude -->
+    <!-- http://www.episa.inesctec.pt/data_object#Longitude -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#Longitude">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#Geospatial_Coordinates"/>
+    <owl:Class rdf:about="http://www.episa.inesctec.pt/data_object#Longitude">
+        <rdfs:subClassOf rdf:resource="http://www.episa.inesctec.pt/data_object#Geospatial_Coordinates"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#Person_Name -->
+    <!-- http://www.episa.inesctec.pt/data_object#Person_Name -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#Person_Name">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#AuthorityString"/>
+    <owl:Class rdf:about="http://www.episa.inesctec.pt/data_object#Person_Name">
+        <rdfs:subClassOf rdf:resource="http://www.episa.inesctec.pt/data_object#AuthorityString"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#Polygon -->
+    <!-- http://www.episa.inesctec.pt/data_object#Polygon -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#Polygon">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#Geospatial_Coordinates"/>
+    <owl:Class rdf:about="http://www.episa.inesctec.pt/data_object#Polygon">
+        <rdfs:subClassOf rdf:resource="http://www.episa.inesctec.pt/data_object#Geospatial_Coordinates"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#RegexString -->
+    <!-- http://www.episa.inesctec.pt/data_object#RegexString -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#RegexString">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#String"/>
+    <owl:Class rdf:about="http://www.episa.inesctec.pt/data_object#RegexString">
+        <rdfs:subClassOf rdf:resource="http://www.episa.inesctec.pt/data_object#String"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#String -->
+    <!-- http://www.episa.inesctec.pt/data_object#String -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#String">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#DataObject"/>
+    <owl:Class rdf:about="http://www.episa.inesctec.pt/data_object#String">
+        <rdfs:subClassOf rdf:resource="http://www.episa.inesctec.pt/data_object#DataObject"/>
     </owl:Class>
 </rdf:RDF>
 
