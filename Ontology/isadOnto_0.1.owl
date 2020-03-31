@@ -1,0 +1,278 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/inesk/ontologies/2019/10/untitled-ontology-17#"
+     xml:base="http://www.semanticweb.org/inesk/ontologies/2019/10/untitled-ontology-17"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/inesk/ontologies/2019/10/untitled-ontology-17">
+        <owl:imports rdf:resource="http://www.cidoc-crm.org/cidoc-crm/"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/inesk/ontologies/2019/10/untitled-ontology-17#ISAD10_has_access_conditions -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/inesk/ontologies/2019/10/untitled-ontology-17#ISAD10_has_access_conditions">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P3_has_note"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ISAD10 has access conditions</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/inesk/ontologies/2019/10/untitled-ontology-17#ISAD11_has_current_quota -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/inesk/ontologies/2019/10/untitled-ontology-17#ISAD11_has_current_quota">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P3_has_note"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ISAD11 has current quota</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/inesk/ontologies/2019/10/untitled-ontology-17#ISAD12_has_old_quota -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/inesk/ontologies/2019/10/untitled-ontology-17#ISAD12_has_old_quota">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P3_has_note"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ISAD12 has old quota</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/inesk/ontologies/2019/10/untitled-ontology-17#ISAD13_has_original_quota -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/inesk/ontologies/2019/10/untitled-ontology-17#ISAD13_has_original_quota">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P3_has_note"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ISAD13 has original quota</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/inesk/ontologies/2019/10/untitled-ontology-17#ISAD14_has_language -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/inesk/ontologies/2019/10/untitled-ontology-17#ISAD14_has_language">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P3_has_note"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ISAD14 has language</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/inesk/ontologies/2019/10/untitled-ontology-17#ISAD15_has_related_unit_of_description -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/inesk/ontologies/2019/10/untitled-ontology-17#ISAD15_has_related_unit_of_description">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P3_has_note"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ISAD15 has related unit of description</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/inesk/ontologies/2019/10/untitled-ontology-17#ISAD16_has_copies -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/inesk/ontologies/2019/10/untitled-ontology-17#ISAD16_has_copies">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P3_has_note"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ISAD16 has existence and location of copies</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/inesk/ontologies/2019/10/untitled-ontology-17#ISAD17_has_publication_notes -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/inesk/ontologies/2019/10/untitled-ontology-17#ISAD17_has_publication_notes">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P3_has_note"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ISAD17 has publication notes</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/inesk/ontologies/2019/10/untitled-ontology-17#ISAD18_has_notes -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/inesk/ontologies/2019/10/untitled-ontology-17#ISAD18_has_notes">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P3_has_note"/>
+        <rdfs:label>ISAD18 has notes</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/inesk/ontologies/2019/10/untitled-ontology-17#ISAD19_has_organization_system -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/inesk/ontologies/2019/10/untitled-ontology-17#ISAD19_has_organization_system">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P3_has_note"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ISAD19 has system of arrangement</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/inesk/ontologies/2019/10/untitled-ontology-17#ISAD1_has_title -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/inesk/ontologies/2019/10/untitled-ontology-17#ISAD1_has_title">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P3_has_note"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ISAD1 has title</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/inesk/ontologies/2019/10/untitled-ontology-17#ISAD20_has_physical_characteristics_and_technical_requirements -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/inesk/ontologies/2019/10/untitled-ontology-17#ISAD20_has_physical_characteristics_and_technical_requirements">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P3_has_note"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ISAD20 has physical characteristics and technical requirements</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/inesk/ontologies/2019/10/untitled-ontology-17#ISAD21_has_description_date -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/inesk/ontologies/2019/10/untitled-ontology-17#ISAD21_has_description_date">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P3_has_note"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ISAD21 has description date</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/inesk/ontologies/2019/10/untitled-ontology-17#ISAD22_has_last_modification -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/inesk/ontologies/2019/10/untitled-ontology-17#ISAD22_has_last_modification">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P3_has_note"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ISAD22 has last modification</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/inesk/ontologies/2019/10/untitled-ontology-17#ISAD23_has_predominant__date -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/inesk/ontologies/2019/10/untitled-ontology-17#ISAD23_has_predominant__date">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P3_has_note"/>
+        <rdfs:label>ISAD23 has predominant date</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/inesk/ontologies/2019/10/untitled-ontology-17#ISAD2_has_level_of_description -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/inesk/ontologies/2019/10/untitled-ontology-17#ISAD2_has_level_of_description">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P3_has_note"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ISAD2 has level of description</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/inesk/ontologies/2019/10/untitled-ontology-17#ISAD3_has_reference_code -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/inesk/ontologies/2019/10/untitled-ontology-17#ISAD3_has_reference_code">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P3_has_note"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ISAD3 has reference code</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/inesk/ontologies/2019/10/untitled-ontology-17#ISAD4_has_type_of_title -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/inesk/ontologies/2019/10/untitled-ontology-17#ISAD4_has_type_of_title">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P3_has_note"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ISAD4 has type of title</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/inesk/ontologies/2019/10/untitled-ontology-17#ISAD5_has_date -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/inesk/ontologies/2019/10/untitled-ontology-17#ISAD5_has_date">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P3_has_note"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ISAD5 has date</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/inesk/ontologies/2019/10/untitled-ontology-17#ISAD6_has_dimension_and_support -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/inesk/ontologies/2019/10/untitled-ontology-17#ISAD6_has_dimension_and_support">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P3_has_note"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ISAD6 has dimension and support</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/inesk/ontologies/2019/10/untitled-ontology-17#ISAD7_has_administrative_history -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/inesk/ontologies/2019/10/untitled-ontology-17#ISAD7_has_administrative_history">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P3_has_note"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ISAD7 has administrative history</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/inesk/ontologies/2019/10/untitled-ontology-17#ISAD8_has_archival_history -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/inesk/ontologies/2019/10/untitled-ontology-17#ISAD8_has_archival_history">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P3_has_note"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ISAD8 has archival history</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/inesk/ontologies/2019/10/untitled-ontology-17#ISAD9_has_scope -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/inesk/ontologies/2019/10/untitled-ontology-17#ISAD9_has_scope">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P3_has_note"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ISAD9 has scope</rdfs:label>
+    </owl:DatatypeProperty>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
