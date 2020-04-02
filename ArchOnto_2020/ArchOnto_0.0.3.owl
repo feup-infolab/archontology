@@ -8,13 +8,14 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:cidoc-crm="http://www.cidoc-crm.org/cidoc-crm/"
+     xmlns:data_object="http://www.episa.inesctec.pt/data_object#"
      xmlns:untitled-ontology-104="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/ineskoch/ontologies/2019/6/untitled-ontology-106">
         <owl:imports rdf:resource="http://www.cidoc-crm.org/cidoc-crm/"/>
+        <owl:imports rdf:resource="http://www.episa.inesctec.pt/data_object/0.0.2"/>
+        <owl:imports rdf:resource="http://www.episa.inesctec.pt/isad-ontology/0.0.1"/>
+        <owl:imports rdf:resource="http://www.episa.inesctec.pt/ligacao/0.0.1"/>
         <owl:imports rdf:resource="http://www.episa.inesctec.pt/n-ary/0.0.1"/>
-        <owl:imports rdf:resource="http://www.semanticweb.org/inesk/ontologies/2019/10/untitled-ontology-17"/>
-        <owl:imports rdf:resource="http://www.semanticweb.org/inesk/ontologies/2019/9/untitled-ontology-8"/>
-        <owl:imports rdf:resource="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104"/>
     </owl:Ontology>
     
 
