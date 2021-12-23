@@ -10,9 +10,9 @@
      xmlns:data_object="http://www.episa.inesctec.pt/data_object#"
      xmlns:untitled-ontology-104="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#">
     <owl:Ontology rdf:about="http://www.episa.inesctec.pt/ligacao">
-        <owl:versionIRI rdf:resource="http://www.episa.inesctec.pt/ligacao/0.0.1"/>
+        <owl:versionIRI rdf:resource="http://www.episa.inesctec.pt/ligacao/0.0.2"/>
         <owl:imports rdf:resource="http://erlangen-crm.org/170309/"/>
-        <owl:imports rdf:resource="http://www.episa.inesctec.pt/data_object/0.0.2"/>
+        <owl:imports rdf:resource="http://www.episa.inesctec.pt/data_object/0.0.4"/>
     </owl:Ontology>
     
 
@@ -28,11 +28,11 @@
     
 
 
-    <!-- http://www.episa.inesctec.pt/ligacao#hasValue -->
+    <!-- http://www.episa.inesctec.pt/ligacao#L2DO_hasValue -->
 
-    <owl:ObjectProperty rdf:about="http://www.episa.inesctec.pt/ligacao#hasValue">
+    <owl:ObjectProperty rdf:about="http://www.episa.inesctec.pt/ligacao#L2DO_hasValue">
         <rdfs:domain rdf:resource="http://erlangen-crm.org/200717/E1_CRM_Entity"/>
-        <rdfs:range rdf:resource="http://www.episa.inesctec.pt/data_object#DataObject"/>
+        <rdfs:range rdf:resource="http://www.episa.inesctec.pt/data_object#DOE1_DataObject"/>
     </owl:ObjectProperty>
 </rdf:RDF>
 

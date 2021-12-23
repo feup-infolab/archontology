@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://www.episa.inesctec.pt/ligacao/0.0.2" uri="link2DataObject_0.0.2.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.episa.inesctec.pt/data_object/0.0.4" uri="data_object_0.0.4.owl"/>
     <uri id="Imports Wizard Entry" name="https://www.ica.org/standards/RiC/ontology" uri="https://raw.githubusercontent.com/ICA-EGAD/RiC-O/master/ontology/current-version/RiC-O_v0-2.rdf"/>
     <uri id="Imports Wizard Entry" name="http://www.episa.inesctec.pt/isad-ontology/0.0.1" uri="isadOntology_0.0.2.owl"/>
     <uri id="Imports Wizard Entry" name="http://erlangen-crm.org/170309/" uri="cidoc-crm-v7.rdf"/>
@@ -14,11 +16,11 @@
     <uri id="Imports Wizard Entry" name="http://www.episa.inesctec.pt/data_object/0.0.2" uri="data_object.owl"/>
     <uri id="Imports Wizard Entry" name="http://www.episa.inesctec.pt/n-ary/0.0.1" uri="https://raw.githubusercontent.com/feup-infolab/archontology/master/Ontology/n_ary_0.0.1.owl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1618584005660" name="http://erlangen-crm.org/170309/" uri="cidoc-crm-v7.rdf"/>
-        <uri id="Automatically generated entry, Timestamp=1618584005660" name="http://www.episa.inesctec.pt/n-ary" uri="n_ary_0.0.2.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1618584005660" name="http://www.semanticweb.org/inesk/ontologies/2019/10/untitled-ontology-17" uri="isadOntology_0.0.2.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1618584005660" name="http://www.semanticweb.org/inesk/ontologies/2019/9/untitled-ontology-8" uri="ligacao_0.0.1.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1618584005660" name="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104" uri="data_object_0.0.3.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1618584005660" name="http://www.semanticweb.org/ineskoch/ontologies/2019/6/untitled-ontology-106" uri="ArchOnto_0.0.4.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1640269830281" name="http://erlangen-crm.org/170309/" uri="cidoc-crm-v7.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1640269830281" name="http://www.episa.inesctec.pt/n-ary" uri="n_ary_0.0.2.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1640269830281" name="http://www.semanticweb.org/inesk/ontologies/2019/10/untitled-ontology-17" uri="isadOntology_0.0.2.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1640269830281" name="http://www.semanticweb.org/inesk/ontologies/2019/9/untitled-ontology-8" uri="link2DataObject_0.0.2.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1640269830281" name="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104" uri="data_object_0.0.4.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1640269830281" name="http://www.semanticweb.org/ineskoch/ontologies/2019/6/untitled-ontology-106" uri="ArchOnto_0.0.4.owl"/>
     </group>
 </catalog>

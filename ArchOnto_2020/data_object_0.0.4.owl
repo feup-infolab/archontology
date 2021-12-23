@@ -1,0 +1,269 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104#"
+     xml:base="http://www.semanticweb.org/ineskoch/ontologies/2019/4/untitled-ontology-104"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:data_object="http://www.episa.inesctec.pt/data_object#">
+    <owl:Ontology rdf:about="http://www.episa.inesctec.pt/data_object">
+        <owl:versionIRI rdf:resource="http://www.episa.inesctec.pt/data_object/0.0.4"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.episa.inesctec.pt/data_object#hasAuthorityFile -->
+
+    <owl:AnnotationProperty rdf:about="http://www.episa.inesctec.pt/data_object#hasAuthorityFile">
+        <rdfs:range rdf:resource="http://www.episa.inesctec.pt/data_object#AuthorityFile"/>
+        <rdfs:domain rdf:resource="http://www.episa.inesctec.pt/data_object#AuthorityString"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.episa.inesctec.pt/data_object#DOP1_approximateDateValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.episa.inesctec.pt/data_object#DOP1_approximateDateValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.episa.inesctec.pt/data_object#DOE9_Approximate"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.episa.inesctec.pt/data_object#DOP2_endDateValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.episa.inesctec.pt/data_object#DOP2_endDateValue">
+        <rdfs:domain rdf:resource="http://www.episa.inesctec.pt/data_object#DOE11_Interval"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.episa.inesctec.pt/data_object#DOP3_fileLocation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.episa.inesctec.pt/data_object#DOP3_fileLocation">
+        <rdfs:domain rdf:resource="http://www.episa.inesctec.pt/data_object#DOE2_AuthorityFile"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.episa.inesctec.pt/data_object#DOP4_hasRegex -->
+
+    <owl:DatatypeProperty rdf:about="http://www.episa.inesctec.pt/data_object#DOP4_hasRegex">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.episa.inesctec.pt/data_object#DOE16_RegexString"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.episa.inesctec.pt/data_object#DOP5_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.episa.inesctec.pt/data_object#DOP5_name">
+        <rdfs:domain rdf:resource="http://www.episa.inesctec.pt/data_object#DOE17_PersonName"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.episa.inesctec.pt/data_object#DOP6_startDateValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.episa.inesctec.pt/data_object#DOP6_startDateValue">
+        <rdfs:domain rdf:resource="http://www.episa.inesctec.pt/data_object#DOE11_Interval"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.episa.inesctec.pt/data_object#DOP7_stringValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.episa.inesctec.pt/data_object#DOP7_stringValue">
+        <rdfs:domain rdf:resource="http://www.episa.inesctec.pt/data_object#DOE8_String"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.episa.inesctec.pt/data_object#DOP8_timestamp -->
+
+    <owl:DatatypeProperty rdf:about="http://www.episa.inesctec.pt/data_object#DOP8_timestamp">
+        <rdfs:domain rdf:resource="http://www.episa.inesctec.pt/data_object#DOE10_Instant"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.episa.inesctec.pt/data_object#DOE10_Instant -->
+
+    <owl:Class rdf:about="http://www.episa.inesctec.pt/data_object#DOE10_Instant">
+        <rdfs:subClassOf rdf:resource="http://www.episa.inesctec.pt/data_object#DOE4_Date"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.episa.inesctec.pt/data_object#DOE11_Interval -->
+
+    <owl:Class rdf:about="http://www.episa.inesctec.pt/data_object#DOE11_Interval">
+        <rdfs:subClassOf rdf:resource="http://www.episa.inesctec.pt/data_object#DOE4_Date"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.episa.inesctec.pt/data_object#DOE12_Latitude -->
+
+    <owl:Class rdf:about="http://www.episa.inesctec.pt/data_object#DOE12_Latitude">
+        <rdfs:subClassOf rdf:resource="http://www.episa.inesctec.pt/data_object#DOE6_GeospatialCoordinates"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.episa.inesctec.pt/data_object#DOE13_Longitude -->
+
+    <owl:Class rdf:about="http://www.episa.inesctec.pt/data_object#DOE13_Longitude">
+        <rdfs:subClassOf rdf:resource="http://www.episa.inesctec.pt/data_object#DOE6_GeospatialCoordinates"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.episa.inesctec.pt/data_object#DOE14_Polygon -->
+
+    <owl:Class rdf:about="http://www.episa.inesctec.pt/data_object#DOE14_Polygon">
+        <rdfs:subClassOf rdf:resource="http://www.episa.inesctec.pt/data_object#DOE6_GeospatialCoordinates"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.episa.inesctec.pt/data_object#DOE15_AuthorityString -->
+
+    <owl:Class rdf:about="http://www.episa.inesctec.pt/data_object#DOE15_AuthorityString">
+        <rdfs:subClassOf rdf:resource="http://www.episa.inesctec.pt/data_object#DOE8_String"/>
+        <data_object:hasAuthorityFile rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></data_object:hasAuthorityFile>
+    </owl:Class>
+    
+
+
+    <!-- http://www.episa.inesctec.pt/data_object#DOE16_RegexString -->
+
+    <owl:Class rdf:about="http://www.episa.inesctec.pt/data_object#DOE16_RegexString">
+        <rdfs:subClassOf rdf:resource="http://www.episa.inesctec.pt/data_object#DOE8_String"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.episa.inesctec.pt/data_object#DOE17_PersonName -->
+
+    <owl:Class rdf:about="http://www.episa.inesctec.pt/data_object#DOE17_PersonName">
+        <rdfs:subClassOf rdf:resource="http://www.episa.inesctec.pt/data_object#DOE15_AuthorityString"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.episa.inesctec.pt/data_object#DOE1_DataObject -->
+
+    <owl:Class rdf:about="http://www.episa.inesctec.pt/data_object#DOE1_DataObject"/>
+    
+
+
+    <!-- http://www.episa.inesctec.pt/data_object#DOE2_AuthorityFile -->
+
+    <owl:Class rdf:about="http://www.episa.inesctec.pt/data_object#DOE2_AuthorityFile">
+        <rdfs:subClassOf rdf:resource="http://www.episa.inesctec.pt/data_object#DOE1_DataObject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.episa.inesctec.pt/data_object#DOE3_Boolean -->
+
+    <owl:Class rdf:about="http://www.episa.inesctec.pt/data_object#DOE3_Boolean">
+        <rdfs:subClassOf rdf:resource="http://www.episa.inesctec.pt/data_object#DOE1_DataObject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.episa.inesctec.pt/data_object#DOE4_Date -->
+
+    <owl:Class rdf:about="http://www.episa.inesctec.pt/data_object#DOE4_Date">
+        <rdfs:subClassOf rdf:resource="http://www.episa.inesctec.pt/data_object#DOE1_DataObject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.episa.inesctec.pt/data_object#DOE5_Decimal -->
+
+    <owl:Class rdf:about="http://www.episa.inesctec.pt/data_object#DOE5_Decimal">
+        <rdfs:subClassOf rdf:resource="http://www.episa.inesctec.pt/data_object#DOE1_DataObject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.episa.inesctec.pt/data_object#DOE6_GeospatialCoordinates -->
+
+    <owl:Class rdf:about="http://www.episa.inesctec.pt/data_object#DOE6_GeospatialCoordinates">
+        <rdfs:subClassOf rdf:resource="http://www.episa.inesctec.pt/data_object#DOE1_DataObject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.episa.inesctec.pt/data_object#DOE7_Integer -->
+
+    <owl:Class rdf:about="http://www.episa.inesctec.pt/data_object#DOE7_Integer">
+        <rdfs:subClassOf rdf:resource="http://www.episa.inesctec.pt/data_object#DOE1_DataObject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.episa.inesctec.pt/data_object#DOE8_String -->
+
+    <owl:Class rdf:about="http://www.episa.inesctec.pt/data_object#DOE8_String">
+        <rdfs:subClassOf rdf:resource="http://www.episa.inesctec.pt/data_object#DOE1_DataObject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.episa.inesctec.pt/data_object#DOE9_Approximate -->
+
+    <owl:Class rdf:about="http://www.episa.inesctec.pt/data_object#DOE9_Approximate">
+        <rdfs:subClassOf rdf:resource="http://www.episa.inesctec.pt/data_object#DOE4_Date"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
